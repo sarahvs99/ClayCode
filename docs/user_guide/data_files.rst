@@ -25,7 +25,7 @@ Each subdirectory contains the data files of that kind where:
    
    * :code:`Ions.ff` force fields by Pengfei Li. :cite:p:`Li2016, Smith2023` The default is IOD-type, with HFE and CN also included.
    
-- :code:`data/UCS/` contains unit cell structures in .GRO format and their corresponding topology in .ITP format with information taken from the ClayFF force field. Currently included, grouped by type, is:
+- :code:`data/UCS/` contains unit cell structures in .GRO format and their corresponding topology in .ITP format with information taken from the ClayFF force field. Currently included is:
 
    * :code:`D21` is dioctohedral 2:1
    
@@ -48,12 +48,8 @@ Adding Unit Cells
 Use of ClayCode should not be dictated only by the Unit Cells provided with this release. To add a new unit cell, one needs to:
 
 #. Obtain a crystal structure. We recommend downloading a .cif file from the `American Mineralogist Crystal Structure Database`_.
-
-#. Convert it to a full occupancy expanded structure (.gro or .pdb). We recommend using one of the the following:
-`OpenBabel`_, `Avogadro`_ :cite:p:`Thanwell2012` (not Avogadro2) or `Mercury by CCDC`_ (licence needed).
-
+#. Convert it to a full occupancy expanded structure (.gro or .pdb). We recommend using one of the the following: `OpenBabel`_, `Avogadro`_ :cite:p:`Thanwell2012` (not Avogadro2) or `Mercury by CCDC`_ (licence needed).
 #. Manually rename the atoms in the .gro to have unique names.
-
 #. Create an "include topology" file (.itp). Please refer to the `GROMACS manual`_ and assign each unique atom name in the .gro to an atom type, as given in :code:`ClayFF.ff/atomtypes.atp`.
 
 .. _`American Mineralogist Crystal Structure Database`: http://rruff.geo.arizona.edu/AMS/amcsd.php
