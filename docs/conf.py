@@ -37,6 +37,9 @@ extensions = [
     "sphinxcontrib.bibtex",
 ]
 
+# Turn on sphinx.ext.autosummary
+autosummary_generate = True
+
 # intersphinx settings
 intersphinx_mapping = {
     "rtd": ("https://docs.readthedocs.io/en/stable/", None),

@@ -4,6 +4,7 @@ API
 ====
 
 .. autosummary::
-   :toctree: API
+   :toctree: _autosummary
+   :recursive:
 
    ClayCode
