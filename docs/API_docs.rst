@@ -3,4 +3,4 @@
    :toctree: _autosummary
    :recursive:
 
-   ClayCode
+   claycode
