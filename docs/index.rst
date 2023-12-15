@@ -60,7 +60,7 @@ Please CITE us: HP, MTD, VE "ClayCode: setting up clay structures from simulatio
    
    Home <self>
    installation
-   API_docs
+   API <_autosummary/claycode>
 
 .. toctree::
    :maxdepth: 1

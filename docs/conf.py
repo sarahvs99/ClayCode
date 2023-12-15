@@ -32,13 +32,18 @@ extensions = [
     "sphinx.ext.doctest",
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
+    "sphinx_autodoc_typehints",
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
     "sphinxcontrib.bibtex",
 ]
 
-# Turn on sphinx.ext.autosummary
-autosummary_generate = True
+# API documentation
+autosummary_generate = True # Turn on sphinx.ext.autosummary
+autoclass_content = "both"  # Add __init__ doc (ie. params) to class summaries
+autodoc_inherit_docstrings = True  # If no docstring, inherit from base class
+set_type_checking_flag = True  # Enable 'expensive' imports for sphinx_autodoc_typehints
+add_module_names = False # Remove namespaces from class/method signatures
 
 # intersphinx settings
 intersphinx_mapping = {
