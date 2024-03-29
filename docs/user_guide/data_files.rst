@@ -21,9 +21,9 @@ Each subdirectory contains the data files of that kind where:
 
 - :code:`data/FF/` contains force field files, as dictated by GROMACS format. Currently included is: 
 
-   * :code:`ClayFF.ff` force fields :cite:p:`Cygan2004, Cygan2021` with added Fe parameters based on personal communication with Andrey Kalinichev. The interlayer water and solvent water are also included here.
+   * :code:`ClayFF.ff` force fields with added Fe parameters based on personal communication with Andrey Kalinichev.\ :cite:p:`Cygan2004, Cygan2021` The interlayer water and solvent water are also included here.
    
-   * :code:`Ions.ff` force fields by Pengfei Li. :cite:p:`Li2016, Smith2023` The default is IOD-type, with HFE and CN also included.
+   * :code:`Ions.ff` force fields by Pengfei Li.\ :cite:p:`Li2016, Smith2023` The default is IOD-type, with HFE and CN also included.
    
 - :code:`data/UCS/` contains unit cell structures in .GRO format and their corresponding topology in .ITP format with information taken from the ClayFF force field. Currently included is:
 
@@ -48,7 +48,7 @@ Adding Unit Cells
 Use of ClayCode should not be dictated only by the Unit Cells provided with this release. To add a new unit cell, one needs to:
 
 #. Obtain a crystal structure. We recommend downloading a .cif file from the `American Mineralogist Crystal Structure Database`_.
-#. Convert it to a full occupancy expanded structure (.gro or .pdb). We recommend using one of the the following: `OpenBabel`_, `Avogadro`_ :cite:p:`Thanwell2012` (not Avogadro2) or `Mercury by CCDC`_ (licence needed).
+#. Convert it to a full occupancy expanded structure (.gro or .pdb). We recommend using one of the the following: `OpenBabel`_, `Avogadro`_\ :cite:p:`Thanwell2012` (not Avogadro2) or `Mercury by CCDC`_ (licence needed).
 #. Manually rename the atoms in the .gro to have unique names.
 #. Create an "include topology" file (.itp). Please refer to the `GROMACS manual`_ and assign each unique atom name in the .gro to an atom type, as given in :code:`ClayFF.ff/atomtypes.atp`.
 
