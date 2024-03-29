@@ -9,6 +9,6 @@ As it has been studied often, it is well characterised. The structure given by t
 
 .. math::
 
-    Ca_0.12 Na_0.32 K_0.05 [Si_7.98 Al_0.02 ]^-0.02 [Al_3.01 Fe^III_0.41
+    Ca_{0.12} Na_{0.32} K_{0.05} [Si_{7.98} Al_{0.02} ]^{-0.02} [Al_{3.01} Fe^{III}_{0.41}
 
 .. _`Source Clays`: https://www.clays.org/source-and-special-clays/
