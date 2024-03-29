@@ -1,6 +1,6 @@
 .. _tutorials:
 
-ClayCode Tutorials
+Tutorials
 ===================
 
 In this section, we will show how to set up the following systems:
