@@ -9,6 +9,6 @@ As it has been studied often, it is well characterised. The structure given by t
 
 .. math::
 
-    Ca_{0.12} Na_{0.32} K_{0.05} [Si_{7.98} Al_{0.02} ]^{-0.02} [Al_{3.01} Fe^{III}_{0.41}
+    Ca_{0.12} Na_{0.32} K_{0.05} [Si_{7.98} Al_{0.02} ]^{-0.02} [Al_{3.01} Fe^{III}_{0.41} Mn_{0.01} Mg_{0.54} Ti_{0.02} ]^{-0.53} \text{with an interlayer charge of -0.55 and an unbalanced charge of +0.05}
 
 .. _`Source Clays`: https://www.clays.org/source-and-special-clays/
