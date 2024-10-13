@@ -11,7 +11,7 @@ As it has been studied often, it is well characterised. The structure given by t
 
     Ca_{0.12} Na_{0.32} K_{0.05} [Si_{7.98} Al_{0.02} ]^{-0.02} [Al_{3.01} Fe(III)_{0.41} Mn_{0.01} Mg_{0.54} Ti_{0.02} ]^{-0.53} O_{20} (OH)_4 \\
 
-    \text{with an unbalanced charge of +0.05}
+with an unbalanced charge of +0.05.
 
 Titanium is often identified during clay analysis, but is attributed to TiO inclusions. Therefore, we will omit it in the input. Meanwhile, the ClayFF forcefield does not have any parameters for Mn, which is shown at the level of detection, and so we will also omit this.
 
