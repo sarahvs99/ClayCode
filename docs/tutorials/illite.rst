@@ -7,7 +7,7 @@ The term "illite" is often used to describe 2:1 minerals with a non-expandable i
 
 .. math::
 
-    Mg_{0.09} Ca_{0.06} K_{1.37} [Si_{6.77} Al_{1.23} ]^{-1.23} [Al_{2.69} Fe^{III}_{0.76} Fe^{II}_{0.06} Mg_{0.43} Ti_{0.06} ]^{-0.44} O_{20} (OH)_4
+    Mg_{0.09} Ca_{0.06} K_{1.37} [Si_{6.77} Al_{1.23} ]^{-1.23} [Al_{2.69} Fe(III)_{0.76} Fe(II)_{0.06} Mg_{0.43} Ti_{0.06} ]^{-0.44} O_{20} (OH)_4
 
 Titanium is often identified during clay analysis, but is attributed to TiO inclusions. Therefore, we will omit in the input.
 

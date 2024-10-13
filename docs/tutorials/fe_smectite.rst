@@ -10,7 +10,7 @@ The structure given by the Clay Mineral Society is:
 
 .. math::
 
-    Mg_{0.18} Ca_{0.36} K_{0.01} [Si_{7.09} Al_{0.91} ]^{-0.91} [Al_{0.61} Fe^{III}_{3.08} Mg_{0.24} Ti_{0.02} ]^{-0.18} O_{20} (OH)_4
+    Mg_{0.18} Ca_{0.36} K_{0.01} [Si_{7.09} Al_{0.91} ]^{-0.91} [Al_{0.61} Fe(III)_{3.08} Mg_{0.24} Ti_{0.02} ]^{-0.18} O_{20} (OH)_4
 
 Titanium is often identified during clay analysis, but is attributed to TiO inclusions. Therefore, we will omit it in the input.
 
